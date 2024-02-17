@@ -145,8 +145,53 @@ main{
 }
 .skills-container{
     display: flex;
+    gap: 25px;
 }
 .skill{
     padding: 35px;
-    gap: 25px;
+   
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 4px 15px 0px;
+}
+.skill-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.skill-description{
+    color: #757575;
+    text-align: justify;
+}
+
+/* Resume section  */
+.resume-section{
+    margin-top: 150px;
+}
+.resume{
+    display: flex;
+    gap: 50px;
+}
+.resume-column-title{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.item{
+  color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+.item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight:600;
+    margin-top: 8px;
+    margin-bottom: 13px;
+}
+.item-description{
+    color: #757575;
+}
+.resume-column hr{
+    margin: 30px 0;
 }
