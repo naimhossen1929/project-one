@@ -4,7 +4,7 @@
 }
 /* common styles */
 body {
-    font-family: 'Merriweather', serif;
+    
     font-family: 'Young Serif', serif;
 }
 
@@ -16,6 +16,7 @@ body {
     border: 0;
     color: white;
     padding: 18px 35px;
+    cursor: pointer;
 }
 .btn-contact{
     border-radius: 5px;
@@ -25,6 +26,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
+    cursor: pointer;
 
 }
 .section-title{
@@ -245,4 +247,46 @@ footer{
     border: 0;
     padding: 20px 35px;
     color: #757575;
+}
+
+/* Responsive Styles  */
+
+/* Mobile devices */
+@media screen and (max-width:576px){
+    .header{
+        background-image: none;
+    }
+    nav > ul{
+        gap: 10px;
+    }
+    .banner{
+        padding: 30px;
+    }
+    .banner .banner-pic{
+        width: 100%;
+    }
+    .btn-download{
+        margin-bottom: 30px;
+    }
+    .skills-container, .resume, footer, .about-info-container, .banner, nav, nav > ul{
+        flex-direction: column;
+    }
+    #what-i-padd{
+        padding: 10px;
+    }
+    footer{
+        padding: 30px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 70%;
+    }
+    .about{
+        padding: 30px;
+    }
+    .about-info-subtitle{
+        text-align: center;
+    }
 }
